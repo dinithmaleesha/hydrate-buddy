@@ -30,10 +30,9 @@ You can easily customize the reminder frequency and working hours by editing the
 2. Look for this line of code:
    
    ```js
-   chrome.alarms.create("reminder", { 
-       periodInMinutes: 45,  // Change this value to adjust the reminder interval
-   });
-4. Replace `45` with your desired interval (in minutes). For example, change it to 30 for a reminder every 30 minutes.
+   const intervel = 45  // Change this value to adjust the reminder interval
+   
+4. Replace `45` with your desired interval (in minutes). For example, change it to `30` for a reminder every `30 minutes`.
 
 ### How to update the working hours ⏳:
 1. In the `background.js` file, find the following code
