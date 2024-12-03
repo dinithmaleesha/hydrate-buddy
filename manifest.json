@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Hydrate Buddy",
-    "version": "1.1",
+    "version": "1.0",
     "description": "A Chrome extension to remind you to drink water.",
     "permissions": ["notifications", "alarms", "storage"],
     "background": {
