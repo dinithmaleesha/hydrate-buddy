@@ -1,5 +1,5 @@
 chrome.runtime.onInstalled.addListener(() => {
-    const intervel = 1 // Change this value to adjust the reminder interval
+    const intervel = 45 // Change this value to adjust the reminder interval
     const now = new Date();
 
     console.log(`Hydrate Buddy installed and running! ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}`);
